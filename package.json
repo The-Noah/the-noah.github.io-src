@@ -7,7 +7,7 @@
     "start": "node build watch",
     "build": "node build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master"
+    "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
   },
   "repository": {
     "type": "git",
