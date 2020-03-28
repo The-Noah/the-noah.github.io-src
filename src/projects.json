@@ -1,0 +1,46 @@
+[
+  {
+    "name": "BZList",
+    "description": "Socket.io + React = (kind of) real-time server stats for BZFlag",
+    "url": "bzlist.net",
+    "github": "bzlist/bzlist.net",
+    "color": "hsl(210, 70%, 55%)"
+  },
+  {
+    "name": "BZFlag Servers Bot",
+    "description": "A simple Discord bot to get a list of servers currently with players",
+    "github": "The-Noah/bzflag-servers-bot",
+    "color": "#7289DA"
+  },
+  {
+    "name": "Password Generator",
+    "description": "Simple password generator made for #7Days7Websites",
+    "url": "the-noah.github.io/password-generator",
+    "github": "The-Noah/password-generator",
+    "color": "#2F80ED"
+  },
+  {
+    "name": "Conversion",
+    "description": "JavaScript version of bzfquery",
+    "github": "The-Noah/Conversion",
+    "color": "#178600"
+  },
+  {
+    "name": "bzfuery.js",
+    "description": "A simple desktop app for converting different measurements to others",
+    "github": "The-Noah/bzfquery.js",
+    "color": "#E34C26"
+  },
+  {
+    "name": "BZFlag Launcher",
+    "description": "🚀 Simple launcher for BZFlag which can handle a custom URI scheme",
+    "github": "The-Noah/bzflag-launcher",
+    "color": "#723EF2"
+  },
+  {
+    "name": "A Nice Bot",
+    "description": "Say hello, to A Nice Bot 🤖. Created to learn Node.js and the Discord API, this bot is a general purpose bot to play around with and have fun 🦄, while at the same time providing many features such as server management 🖥",
+    "github": "The-Noah/A-Nice-Bot",
+    "color": "#F1E05A"
+  }
+]

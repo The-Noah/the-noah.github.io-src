@@ -1,0 +1,23 @@
+{
+  "name": "thenoah.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Noah/thenoah.github.io.git"
+  },
+  "author": "The Noah (https://github.com/The-Noah)",
+  "bugs": {
+    "url": "https://github.com/The-Noah/thenoah.github.io/issues"
+  },
+  "homepage": "https://github.com/The-Noah/thenoah.github.io#readme",
+  "devDependencies": {
+    "ejs": "^3.0.1",
+    "html-minifier": "^4.0.0",
+    "node-sass": "^4.13.1"
+  }
+}
