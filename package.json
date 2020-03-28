@@ -1,22 +1,26 @@
 {
-  "name": "thenoah.github.io",
+  "name": "the-noah.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node build watch",
+    "build": "node build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b master"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/The-Noah/thenoah.github.io.git"
+    "url": "https://github.com/The-Noah/the-noah.github.io.git"
   },
   "author": "The Noah (https://github.com/The-Noah)",
   "bugs": {
-    "url": "https://github.com/The-Noah/thenoah.github.io/issues"
+    "url": "https://github.com/The-Noah/the-noah.github.io/issues"
   },
-  "homepage": "https://github.com/The-Noah/thenoah.github.io#readme",
+  "homepage": "https://the-noah.github.io/",
   "devDependencies": {
     "ejs": "^3.0.1",
+    "gh-pages": "^2.2.0",
     "html-minifier": "^4.0.0",
     "node-sass": "^4.13.1"
   }
