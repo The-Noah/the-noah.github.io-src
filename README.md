@@ -1,3 +1,3 @@
 # Personal Website
 
-My personal websites to show what I've made.
+My personal website to show what I've made.
