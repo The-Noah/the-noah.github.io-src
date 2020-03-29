@@ -20,6 +20,7 @@ const build = () => {
   }
 
   fs.copyFileSync(path.join(srcDir, "favicon.ico"), path.join(buildDir, "favicon.ico"));
+  fs.copyFileSync(path.join(srcDir, "background.jpg"), path.join(buildDir, "background.jpg"));
 
   const projects = JSON.parse(fs.readFileSync(path.join(srcDir, "projects.json"), "utf8"));
 
