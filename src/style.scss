@@ -193,6 +193,12 @@ nav{
         }
       }
     }
+
+    @for $i from 2 through 8{
+      &:nth-child(#{$i}){
+        animation-delay: (.03s * $i);
+      }
+    }
   }
 }
 
