@@ -21,13 +21,13 @@
   },
   {
     "name": "Conversion",
-    "description": "JavaScript version of bzfquery",
+    "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
     "color": "#178600"
   },
   {
     "name": "bzfuery.js",
-    "description": "A simple desktop app for converting different measurements to others",
+    "description": "JavaScript version of bzfquery",
     "github": "The-Noah/bzfquery.js",
     "color": "#E34C26"
   },
