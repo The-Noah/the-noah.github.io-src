@@ -27,6 +27,13 @@
     "color": "#0C4DF3"
   },
   {
+    "name": "Modern Signup Page",
+    "description": "Modern signup page made for #7Days7Websites",
+    "url": "the-noah.github.io/modern-signup-page",
+    "github": "The-Noah/modern-signup-page",
+    "color": "hsl(350, 95%, 55%)"
+  },
+  {
     "name": "Conversion",
     "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
