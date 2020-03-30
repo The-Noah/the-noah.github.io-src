@@ -20,6 +20,13 @@
     "color": "#2F80ED"
   },
   {
+    "name": "Sector's Edge Tournament",
+    "description": "Sector's Edge tournament information and teams. Made for #7Days7Websites",
+    "url": "the-noah.github.io/sectors-edge-tournament",
+    "github": "The-Noah/sectors-edge-tournament",
+    "color": "#0C4DF3"
+  },
+  {
     "name": "Conversion",
     "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
