@@ -34,6 +34,13 @@
     "color": "hsl(350, 95%, 55%)"
   },
   {
+    "name": "Gallery",
+    "description": "Gallery created for #7Days7Websites",
+    "url": "the-noah.github.io/gallery",
+    "github": "The-Noah/gallery",
+    "color": "#14BDAD"
+  },
+  {
     "name": "Conversion",
     "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
