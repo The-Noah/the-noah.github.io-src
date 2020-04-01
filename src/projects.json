@@ -41,6 +41,13 @@
     "color": "#14BDAD"
   },
   {
+    "name": "Greetings",
+    "description": "Lightweight start page. Created for #7Days7Websites",
+    "url": "the-noah.github.io/greetings",
+    "github": "The-Noah/greetings",
+    "color": "#333"
+  },
+  {
     "name": "Conversion",
     "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
