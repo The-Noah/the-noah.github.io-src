@@ -45,7 +45,14 @@
     "description": "Lightweight start page. Created for #7Days7Websites",
     "url": "the-noah.github.io/greetings",
     "github": "The-Noah/greetings",
-    "color": "#333"
+    "color": "#777"
+  },
+  {
+    "name": "Web Piano",
+    "description": "Simple web piano created for #7Days7Websites",
+    "url": "the-noah.github.io/web-piano",
+    "github": "The-Noah/web-piano",
+    "color": "#3E4750"
   },
   {
     "name": "Conversion",
