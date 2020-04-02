@@ -5,14 +5,14 @@
     "url": "bzlist.net",
     "github": "bzlist/bzlist.net",
     "color": "hsl(210, 70%, 55%)",
-    "labels": ["Web App"]
+    "labels": ["Web App", "React", "Socket.io", "Full Stack"]
   },
   {
     "name": "BZFlag Servers Bot",
     "description": "A simple Discord bot to get a list of servers currently with players",
     "github": "The-Noah/bzflag-servers-bot",
     "color": "#7289DA",
-    "labels": ["Discord Bot"]
+    "labels": ["Discord Bot", "Node.js"]
   },
   {
     "name": "Password Generator",
@@ -20,7 +20,7 @@
     "url": "the-noah.github.io/password-generator",
     "github": "The-Noah/password-generator",
     "color": "#2F80ED",
-    "labels": ["Web App", "#7Days7Websites"]
+    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
   },
   {
     "name": "Sector's Edge Tournament",
@@ -52,7 +52,7 @@
     "url": "the-noah.github.io/greetings",
     "github": "The-Noah/greetings",
     "color": "#777",
-    "labels": ["Web App", "#7Days7Websites"]
+    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
   },
   {
     "name": "Web Piano",
@@ -60,48 +60,48 @@
     "url": "the-noah.github.io/web-piano",
     "github": "The-Noah/web-piano",
     "color": "#3E4750",
-    "labels": ["Web App", "#7Days7Websites"]
+    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
   },
   {
     "name": "Conversion",
     "description": "A simple desktop app for converting different measurements to others",
     "github": "The-Noah/Conversion",
     "color": "#178600",
-    "labels": ["Desktop App"]
+    "labels": ["Desktop App", "C#"]
   },
   {
     "name": "Subscribers Box",
     "description": "A simple WPF .NET Core app to show the number of subscribers for a YouTube channel",
     "github": "The-Noah/subscribers-box",
     "color": "#FF0000",
-    "labels": ["Desktop App"]
+    "labels": ["Desktop App", "C#"]
   },
   {
     "name": "bzfuery.js",
     "description": "JavaScript version of bzfquery",
     "github": "The-Noah/bzfquery.js",
     "color": "#E34C26",
-    "labels": ["Library"]
+    "labels": ["Library", "TypeScript", "Deno"]
   },
   {
     "name": "BZFlag Launcher",
     "description": "🚀 Simple launcher for BZFlag which can handle a custom URI scheme",
     "github": "The-Noah/bzflag-launcher",
     "color": "#723EF2",
-    "labels": ["Desktop App"]
+    "labels": ["Desktop App", "C#"]
   },
   {
     "name": "A Nice Bot",
     "description": "Say hello, to A Nice Bot 🤖. Created to learn Node.js and the Discord API, this bot is a general purpose bot to play around with and have fun 🦄, while at the same time providing many features such as server management 🖥",
     "github": "The-Noah/A-Nice-Bot",
     "color": "#F1E05A",
-    "labels": ["Discord Bot"]
+    "labels": ["Discord Bot", "Node.js"]
   },
   {
     "name": "CSEngine",
     "description": "Simple OpenGL program written in C#",
     "github": "The-Noah/CSEngine",
     "color": "#F5D",
-    "labels": ["Desktop App"]
+    "labels": ["Desktop App", "C#"]
   }
 ]

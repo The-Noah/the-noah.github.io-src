@@ -177,17 +177,26 @@ nav{
 
     .info{
       display: flex;
+      align-items: flex-end;
 
-      span:not(:last-child), a:not(:last-child){
-        margin-right: .8rem;
+      .labels{
+        display: flex;
+        flex-wrap: wrap;
+
+        & > span{
+          margin-top: .5rem;
+          padding: .2rem .4rem;
+          background-color: #F0F5FF;
+          color: #3E5570;
+          font-size: .8rem;
+          line-height: 1em;
+          border-radius: $border-radius;
+          align-self: flex-start;
+        }
       }
 
-      span{
-        padding: .2rem .5rem;
-        background-color: #F0F5FF;
-        color: #3E5570;
-        font-size: .8rem;
-        border-radius: $border-radius;
+      .labels > span:not(:last-child), a:not(:last-child){
+        margin-right: .5rem;
       }
 
       a{
@@ -195,7 +204,7 @@ nav{
         align-items: center;
 
         svg{
-          height: 1rem;
+          height: 1.1rem;
 
           path{
             fill: #333;
