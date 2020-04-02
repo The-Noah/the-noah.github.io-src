@@ -96,5 +96,12 @@
     "github": "The-Noah/A-Nice-Bot",
     "color": "#F1E05A",
     "labels": ["Discord Bot"]
+  },
+  {
+    "name": "CSEngine",
+    "description": "Simple OpenGL program written in C#",
+    "github": "The-Noah/CSEngine",
+    "color": "#F5D",
+    "labels": ["Desktop App"]
   }
 ]
