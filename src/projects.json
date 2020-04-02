@@ -61,6 +61,12 @@
     "color": "#178600"
   },
   {
+    "name": "Subscribers Box",
+    "description": "A simple WPF .NET Core app to show the number of subscribers for a YouTube channel",
+    "github": "The-Noah/subscribers-box",
+    "color": "#FF0000"
+  },
+  {
     "name": "bzfuery.js",
     "description": "JavaScript version of bzfquery",
     "github": "The-Noah/bzfquery.js",
