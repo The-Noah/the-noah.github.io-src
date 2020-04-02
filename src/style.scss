@@ -147,7 +147,7 @@ nav{
 }
 
 #projects{
-  width: 70%;
+  width: 80%;
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -175,14 +175,24 @@ nav{
       padding: .8rem 1rem;
     }
 
-    .icons{
+    .info{
       display: flex;
-      justify-content: flex-end;
+
+      span:not(:last-child), a:not(:last-child){
+        margin-right: .8rem;
+      }
+
+      span{
+        padding: .2rem .5rem;
+        background-color: #F0F5FF;
+        color: #3E5570;
+        font-size: .8rem;
+        border-radius: $border-radius;
+      }
 
       a{
-        &:not(:last-child){
-          margin-right: .8rem;
-        }
+        display: flex;
+        align-items: center;
 
         svg{
           height: 1rem;

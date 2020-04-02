@@ -2,7 +2,11 @@
   <h2><%= project.name %></h2>
   <p><%= project.description %>.</p>
   <span style="flex:1"></span>
-  <div class="icons">
+  <div class="info">
+    <% if(project.labels){project.labels.forEach(function(label){ %>
+      <span><%= label %></span>
+    <% })} %>
+    <div style="flex:1"></div>
     <% if(project.url){ %>
       <a href="https://<%= project.url %>" target="_blank" title="Live Site"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M5 3h1v1H5V3zM3 3h1v1H3V3zM1 3h1v1H1V3zm12 10H1V5h12v8zm0-9H7V3h6v1zm1-1c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V3z"></path></svg></a>
     <% } %>
