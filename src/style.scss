@@ -19,10 +19,9 @@ $shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
   font-size: 18px;
 }
 
-
 body{
   margin: 0;
-  background-color: #F0F0F0;
+  background-color: #F5F5F5;
   font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
@@ -117,7 +116,7 @@ nav{
 }
 
 #projects{
-  width: 80%;
+  width: 85%;
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -138,11 +137,16 @@ nav{
     box-shadow: $shadow;
     border-top: $border-radius / 2 solid transparent;
     border-radius: $border-radius;
-    animation: slide-up .15s forwards ease;
     opacity: 0;
+    animation: slide-up .15s forwards ease;
+    transition: transform .25s ease-in-out;
 
     @include mobile{
       padding: .8rem 1rem;
+    }
+
+    &:hover{
+      transform: translateY(-.2rem) !important;
     }
 
     .info{
