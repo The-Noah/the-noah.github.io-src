@@ -71,6 +71,10 @@ nav{
   a{
     margin-right: 1rem;
 
+    &:hover path{
+      fill: var(--color);
+    }
+
     svg{
       height: 1.4rem;
 
