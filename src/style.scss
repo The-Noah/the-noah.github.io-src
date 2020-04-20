@@ -145,11 +145,13 @@ nav{
     border-top: $border-radius / 2 solid transparent;
     border-radius: $border-radius;
     opacity: 0;
-    animation: slide-up .15s forwards ease;
-    transition: transform .25s ease-in-out;
 
     @include mobile{
       padding: .8rem 1rem;
+    }
+
+    &.visible{
+      animation: slide-up .15s forwards ease;
     }
 
     &:hover{
@@ -194,10 +196,12 @@ nav{
       }
     }
 
-    @for $i from 2 through 8{
-      &:nth-child(#{$i}){
-        animation-delay: (.03s * $i);
-      }
+    &:nth-child(odd){
+      animation-delay: (.05s);
+    }
+
+    &:nth-child(even){
+      animation-delay: (.1s);
     }
   }
 }

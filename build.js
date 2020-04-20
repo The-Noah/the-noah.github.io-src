@@ -3,6 +3,7 @@ const path = require("path");
 const ejs = require("ejs");
 const sass = require("node-sass");
 const htmlMinify = require("html-minifier").minify;
+const terser = require("terser");
 
 const srcDir = path.join(__dirname, "src");
 const buildDir = path.join(__dirname, "build");
@@ -29,8 +30,11 @@ const build = () => {
     outputStyle: "compressed"
   })).css.toString();
 
+  const js = terser.minify(fs.readFileSync(path.join(srcDir, "app.js"), "utf8")).code;
+
   ejs.renderFile(path.join(srcDir, "index.ejs"), {
     css,
+    js,
     projects
   }, (err, html) => {
     if(err){
