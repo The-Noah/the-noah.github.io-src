@@ -88,6 +88,7 @@ nav{
   background-position: 20%;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,6 +100,10 @@ nav{
 
   h1{
     margin-bottom: 4rem;
+
+    @include mobile{
+      font-size: 2rem;
+    }
   }
 
   h2{
@@ -106,11 +111,12 @@ nav{
     font-weight: 200;
 
     @include mobile{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
 
   h1, h2{
+    max-width: 85%;
     text-shadow: 0 1px 8px #000A;
   }
 }
@@ -125,6 +131,7 @@ nav{
 
   @include mobile{
     width: 90%;
+    margin-top: 1.5rem;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
