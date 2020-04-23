@@ -43,7 +43,7 @@ const build = () => {
 
     fs.writeFileSync(path.join(buildDir, "index.html"), htmlMinify(html, {
       html5: true,
-      collapseInlineTagWhitespace: true,
+      // collapseInlineTagWhitespace: true,
       minifyCSS: true,
       removeComments: true,
       removeRedundantAttributes: true,
