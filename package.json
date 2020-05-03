@@ -4,9 +4,6 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "start": "node build watch",
-    "build": "node build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
   },
   "repository": {
@@ -19,10 +16,6 @@
   },
   "homepage": "https://the-noah.github.io/",
   "devDependencies": {
-    "ejs": "^3.0.1",
-    "gh-pages": "^2.2.0",
-    "html-minifier": "^4.0.0",
-    "node-sass": "^4.13.1",
-    "terser": "^4.6.11"
+    "gh-pages": "^2.2.0"
   }
 }
