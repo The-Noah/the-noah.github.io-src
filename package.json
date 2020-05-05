@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "static-site-generator",
+    "watch": "static-site-generator watch",
     "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
   },
   "repository": {
