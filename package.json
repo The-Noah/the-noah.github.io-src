@@ -2,7 +2,6 @@
   "name": "the-noah.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "build.js",
   "scripts": {
     "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
   },
@@ -17,5 +16,6 @@
   "homepage": "https://the-noah.github.io/",
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "dependencies": {}
 }
