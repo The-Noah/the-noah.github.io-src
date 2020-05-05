@@ -6,13 +6,27 @@
     "github": "bzlist/bzlist.net",
     "color": "hsl(210, 70%, 55%)",
     "labels": ["Web App", "React", "Socket.io", "Full Stack"]
+  },{
+    "name": "Static Site Generator",
+    "description": "Generates an optimized static website",
+    "github": "The-Noah/static-site-generator",
+    "color": "#00FA9A",
+    "labels": ["Node.js", "JavaScript"]
+  },
+  {
+    "name": "BZFlag Server Plugins",
+    "description": "List of BZFlag server plugins",
+    "url": "the-noah.github.io/bzfs-plugins",
+    "github": "The-Noah/bzfs-plugins",
+    "color": "#FF4500",
+    "labels": ["Website"]
   },
   {
     "name": "BZFlag Servers Bot",
     "description": "A simple Discord bot to get a list of servers currently with players",
     "github": "The-Noah/bzflag-servers-bot",
     "color": "#7289DA",
-    "labels": ["Discord Bot", "Node.js"]
+    "labels": ["Discord Bot", "Node.js", "JavaScript"]
   },
   {
     "name": "Password Generator",
@@ -95,7 +109,7 @@
     "description": "Say hello, to A Nice Bot 🤖. Created to learn Node.js and the Discord API, this bot is a general purpose bot to play around with and have fun 🦄, while at the same time providing many features such as server management 🖥",
     "github": "The-Noah/A-Nice-Bot",
     "color": "#F1E05A",
-    "labels": ["Discord Bot", "Node.js"]
+    "labels": ["Discord Bot", "Node.js", "JavaScript"]
   },
   {
     "name": "CSEngine",
