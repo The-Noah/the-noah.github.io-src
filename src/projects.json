@@ -29,6 +29,14 @@
     "labels": ["Discord Bot", "Node.js", "JavaScript"]
   },
   {
+    "name": "Shoe Store",
+    "description": "Shoe store website design",
+    "url": "the-noah.github.io/shoe-store",
+    "github": "The-Noah/shoe-store",
+    "color": "#ED2937",
+    "labels": ["Website", "JavaScript"]
+  },
+  {
     "name": "Password Generator",
     "description": "Simple password generator made for #7Days7Websites",
     "url": "the-noah.github.io/password-generator",

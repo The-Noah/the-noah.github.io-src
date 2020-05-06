@@ -11,7 +11,7 @@ function checkPosition(){
     const element = elements[i];
     const positionFromTop = elements[i].getBoundingClientRect().top;
 
-    if(positionFromTop - windowHeight <= -50 && !element.classList.contains("visible")){
+    if(positionFromTop - windowHeight <= -20 && !element.classList.contains("visible")){
       element.classList.add("visible");
     }
   }
