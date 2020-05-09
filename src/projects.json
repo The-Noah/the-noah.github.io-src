@@ -37,6 +37,14 @@
     "labels": ["Website", "JavaScript"]
   },
   {
+    "name": "Breakout",
+    "description": "Simple online breakout game",
+    "url": "the-noah.github.io/breakout",
+    "github": "The-Noah/breakout",
+    "color": "#000",
+    "labels": ["Website", "JavaScript", "Game"]
+  },
+  {
     "name": "Password Generator",
     "description": "Simple password generator made for #7Days7Websites",
     "url": "the-noah.github.io/password-generator",
