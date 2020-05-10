@@ -18,23 +18,30 @@
   <style><%- css.style -%></style>
 </head>
 <body>
-  <nav>
+  <div class="links">
     <% links.forEach((link) => { %>
       <a href="<%- link.url %>" target="_blank" rel="noopener noreferrer" title="<%- link.name %>" style="--color:<%- link.color %>"><%- link.icon %></a>
     <% }); %>
-  </nav>
+    </div>
   <div class="hero">
     <h1>Hello, I'm Noah</h1>
     <h2>I develop open source Web Apps and Software</h2>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+    </nav>
   </div>
   <div id="about" class="container">
     <h1>About Me</h1>
     <p>I'm a programmer who loves to play games. Dreaming of being a <a href="https://bzflag.org" target="_blank" rel="noopener noreferrer">BZFlag</a> developer and creator of <a href="https://bzlist.net" target="_blank" rel="noopener noreferrer">BZList</a>. Also cats are the best thing in the world ᓚᘏᗢ</p>
   </div>
   <div id="projects" class="container">
-    <% projects.forEach((project) => { %>
-      <%- include("project", {project}); %>
-    <% }); %>
+    <h1>Projects</h1>
+    <div class="cards">
+      <% projects.forEach((project) => { %>
+        <%- include("project", {project}); %>
+      <% }); %>
+    </div>
   </div>
   <footer>Copyright &copy; 2020 The Noah</footer>
   <noscript><style>#projects>div{opacity:1}</style></noscript>

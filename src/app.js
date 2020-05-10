@@ -2,7 +2,7 @@ let elements;
 let windowHeight;
 
 function init(){
-  elements = document.querySelectorAll("#projects > div");
+  elements = document.querySelectorAll(".cards > div");
   windowHeight = window.innerHeight;
 }
 
