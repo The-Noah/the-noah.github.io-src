@@ -17,6 +17,7 @@ $shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
 
 :root{
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -76,6 +77,14 @@ p{
 
   a{
     margin-right: 1.5rem;
+    opacity: 0;
+    animation: slide-up .4s forwards ease-in-out;
+
+    @for $i from 2 through 5{
+      &:nth-child(#{$i}){
+        animation-delay: (.1s * $i);
+      }
+    }
 
     &:hover path{
       fill: var(--color);
@@ -85,7 +94,7 @@ p{
       height: 1.4rem;
 
       path{
-        fill: #FFF7;
+        fill: #FFF8;
       }
     }
   }
@@ -94,7 +103,8 @@ p{
 .hero{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url("background.jpg");
   background-position: 20%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,18 +121,22 @@ p{
   h1{
     margin-bottom: 4rem;
     font-size: 5rem;
+    animation: slide-in .5s forwards ease-in-out;
 
     @include mobile{
-      font-size: 2rem;
+      font-size: 2.2rem;
+      font-weight: 400;
     }
   }
 
   h2{
     font-size: 2.5rem;
     font-weight: 200;
+    animation: slide-up .5s forwards ease-in-out;
 
     @include mobile{
-      font-size: 1.3rem;
+      font-size: 1.7rem;
+      font-weight: 400;
     }
   }
 
@@ -139,6 +153,11 @@ p{
       margin: 0 1rem;
       font-size: 1.2rem;
       text-decoration: none;
+      transition: border .1s ease-in-out;
+
+      @include mobile{
+        font-size: 1rem;
+      }
 
       &:hover{
         border-bottom: 2px solid #FAFAFA;
@@ -187,6 +206,7 @@ p{
     background: #FFF;
     display: flex;
     flex-direction: column;
+    position: relative;
     box-shadow: $shadow;
     border-top: $border-radius / 2 solid transparent;
     border-radius: $border-radius;
@@ -196,12 +216,12 @@ p{
       padding: .8rem 1rem;
     }
 
-    &.visible{
-      animation: slide-up .15s forwards ease;
+    &[data-visible]{
+      animation: slide-up .2s forwards ease-in-out;
     }
 
     &:hover{
-      transform: translateY(-.2rem) !important;
+      transform: translateY(-6px) !important;
     }
 
     p{
@@ -264,7 +284,19 @@ p{
 @keyframes slide-up{
   0%{
     opacity: 0;
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slide-in{
+  0%{
+    opacity: 0;
+    transform: translate3d(-150px, 0, 0);
   }
 
   100%{
