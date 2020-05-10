@@ -1,8 +1,7 @@
-let elements;
+const elements = document.querySelectorAll(".cards > div");
 let windowHeight;
 
 function init(){
-  elements = document.querySelectorAll(".cards > div");
   windowHeight = window.innerHeight;
 }
 
