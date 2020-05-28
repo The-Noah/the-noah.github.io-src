@@ -24,9 +24,25 @@
   {
     "name": "BZFlag Servers Bot",
     "description": "A simple Discord bot to get a list of servers currently with players",
+    "url": "discord.com/oauth2/authorize?client_id=613446339157819412&scope=bot",
     "github": "The-Noah/bzflag-servers-bot",
     "color": "#7289DA",
     "labels": ["Discord Bot", "Node.js", "JavaScript"]
+  },
+  {
+    "name": "Deno Discord Bot",
+    "description": "A simple Discord bot created using Deno",
+    "url": "discord.com/oauth2/authorize?client_id=714216231313604658&scope=bot",
+    "github": "The-Noah/deno-discord-bot",
+    "color": "#00BFFF",
+    "labels": ["Discord Bot", "Deno", "JavaScript", "TypeScript"]
+  },
+  {
+    "name": "json2api",
+    "description": "Turns JSON files into a simple API",
+    "github": "The-Noah/json2api",
+    "color": "#2B7489",
+    "labels": ["Discord Bot", "Deno", "JavaScript", "TypeScript"]
   },
   {
     "name": "Shoe Store",
@@ -91,6 +107,14 @@
     "github": "The-Noah/web-piano",
     "color": "#3E4750",
     "labels": ["Web App", "JavaScript", "#7Days7Websites"]
+  },
+  {
+    "name": "Password Strength",
+    "description": "Simple password strength meter",
+    "url": "the-noah.github.io/password-strength",
+    "github": "The-Noah/password-strength",
+    "color": "#56CCF2",
+    "labels": ["Web App", "JavaScript"]
   },
   {
     "name": "Conversion",
