@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "static-site-generator dev",
     "build": "static-site-generator",
     "watch": "static-site-generator watch",
-    "dev": "static-site-generator dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
   },
@@ -22,6 +22,6 @@
     "gh-pages": "^2.2.0"
   },
   "dependencies": {
-    "@the-noah/static-site-generator": "^1.3.1"
+    "@the-noah/static-site-generator": "^1.3.5"
   }
 }
