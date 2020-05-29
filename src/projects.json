@@ -38,6 +38,14 @@
     "labels": ["Discord Bot", "Deno", "JavaScript", "TypeScript"]
   },
   {
+    "name": "Currency Converter",
+    "description": "Simple currency converter website",
+    "url": "the-noah.github.io/currency-converter",
+    "github": "The-Noah/currency-converter",
+    "color": "#2B7489",
+    "labels": ["Website", "Web App", "JavaScript"]
+  },
+  {
     "name": "json2api",
     "description": "Turns JSON files into a simple API",
     "github": "The-Noah/json2api",
