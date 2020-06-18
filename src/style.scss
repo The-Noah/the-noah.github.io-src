@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
 
 $border-radius: .3rem;
-$shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
 
 @mixin mobile{
   @media only screen and (max-width: 768px){
@@ -10,7 +9,7 @@ $shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
 }
 
 *{
-  color: #444;
+  color: #DDD;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
@@ -22,7 +21,7 @@ $shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
 
 body{
   margin: 0;
-  background-color: #F5F5F5;
+  background-color: #111;
   font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
@@ -66,6 +65,24 @@ p{
   line-height: 1.8;
 }
 
+.btn{
+  padding: .75rem 1.5rem;
+  background: linear-gradient(145deg, #00BFFF, #05F);
+  color: #FFF;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 0 1rem #00BFFFBB;
+  border-radius: $border-radius;
+  cursor: pointer;
+  user-select: none;
+  transition: background-image .2s ease-in-out;
+
+  &:hover{
+    background: linear-gradient(155deg, #00BFFF, #05F);
+  }
+}
+
 .links{
   width: 100%;
   padding: 1rem 0;
@@ -103,111 +120,105 @@ p{
 .hero{
   width: 100%;
   height: 100vh;
+  padding: 0 4rem;
   background-color: #000;
   background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url("background.jpg");
   background-position: 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
+  @include mobile{
+    padding: 0 2rem;
+  }
 
   *{
-    color: #FAFAFA;
+    color: #FFF;
   }
 
   h1{
-    margin-bottom: 4rem;
-    font-size: 5rem;
+    font-size: 2.5rem;
     animation: slide-in .5s forwards ease-in-out;
 
     @include mobile{
-      font-size: 2.2rem;
+      font-size: 1.5rem;
       font-weight: 400;
     }
   }
 
   h2{
-    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
     animation: slide-up .5s forwards ease-in-out;
 
     @include mobile{
-      font-size: 1.7rem;
+      font-size: 1.2rem;
       font-weight: 400;
     }
   }
 
   h1, h2, nav a{
-    max-width: 85%;
-    text-shadow: 0 1px 8px #000A;
+    text-shadow: 0 1px .5rem #000;
   }
 
-  nav{
-    bottom: 2rem;
-    position: absolute;
-
-    a{
-      margin: 0 1rem;
-      font-size: 1.2rem;
-      text-decoration: none;
-      transition: border .1s ease-in-out;
-
-      @include mobile{
-        font-size: 1rem;
-      }
-
-      &:hover{
-        border-bottom: 2px solid #FAFAFA;
-      }
-    }
+  .btn{
+    margin-top: 4rem;
   }
 }
 
 .container{
-  width: 85%;
-  margin-top: 4rem;
+  width: 100%;
+  padding: 4rem 0;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @include mobile{
-    width: 90%;
-    margin-top: 1.5rem;
-  }
-
+  
   h1{
-    margin-bottom: 2rem;
+    max-width: calc(100% + 1rem);
+    color: #222;
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    position: absolute;
+    top: -.5rem;
+    left: -1rem;
+    user-select: none;
+    overflow: hidden;
   }
 
   & > p{
     width: 80%;
     margin: 0;
-    text-align: center;
+    z-index: 1;
   }
 }
 
 .cards{
-  margin-top: 2rem;
+  width: 80%;
+  margin: 2rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
   grid-gap: 2rem;
 
   @include mobile{
+    width: 90%;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
 
   & > div{
     padding: 1rem 1.5rem;
-    background: #FFF;
+    background: linear-gradient(45deg, #151515, #1F1F1F);
     display: flex;
     flex-direction: column;
     position: relative;
-    box-shadow: $shadow;
+    box-shadow: 0 2px 26px rgba(0, 0, 0, .15), 0 1px 8px rgba(0, 0, 0, .1);
     border-top: $border-radius / 2 solid transparent;
     border-radius: $border-radius;
     opacity: 0;
@@ -222,8 +233,12 @@ p{
     }
 
     &:hover{
-      box-shadow: 0 4px 42px rgba(0, 0, 0, .15), 0 2px 12px rgba(0, 0, 0, .1);
+      box-shadow: 0 4px 32px rgba(0, 0, 0, .15), 0 2px 12px rgba(0, 0, 0, .1);
       top: -2px;
+    }
+
+    h2{
+      color: #FFF;
     }
 
     p{
@@ -237,25 +252,25 @@ p{
     }
 
     .info{
+      margin-top: .5rem;
       display: flex;
-      align-items: flex-end;
+      align-items: center;
 
       .labels{
         display: flex;
         flex-wrap: wrap;
 
         & > span{
-          margin-top: .5rem;
           padding: .2rem .4rem;
-          background-color: #F0F5FF;
-          color: #3E5570;
+          background-color: #444;
+          color: hsl(212, 50%, 85%);
           font-size: .8rem;
-          border-radius: $border-radius;
+          border-radius: $border-radius / 2;
           align-self: flex-start;
         }
       }
 
-      .labels > span:not(:last-child), a:not(:last-child){
+      .labels > span:not(:last-child){
         margin-right: .5rem;
       }
 
@@ -263,11 +278,15 @@ p{
         display: flex;
         align-items: center;
 
+        &:not(:last-child){
+          margin-right: .75rem;
+        }
+
         svg{
           height: 1.1rem;
 
           path{
-            fill: #333;
+            fill: #CCC;
           }
         }
       }

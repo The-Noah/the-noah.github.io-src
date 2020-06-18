@@ -25,25 +25,22 @@
     <% }); %>
     </div>
   <div class="hero">
-    <h1>Hello, I'm Noah</h1>
-    <h2>I develop open source Web Apps and Software</h2>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#projects">Projects</a>
-    </nav>
+    <h2>I'm Noah</h2>
+    <h1>I develop open source Web Apps and Software</h1>
+    <a href="#projects" class="btn">Projects</a>
   </div>
   <div id="about" class="container">
-    <h1>About Me</h1>
+    <h1>About</h1>
     <p>I'm a programmer who loves to play games. Dreaming of being a <a href="https://bzflag.org" target="_blank" rel="noopener noreferrer">BZFlag</a> developer and creator of <a href="https://bzlist.net" target="_blank" rel="noopener noreferrer">BZList</a>. Also cats are the best thing in the world ᓚᘏᗢ</p>
   </div>
   <div id="projects" class="container">
     <h1>Projects</h1>
-    <p>For a full list view my <a href="https://github.com/The-Noah?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub repositories</a>.</p>
     <div class="cards">
       <% projects.forEach((project) => { %>
         <%- include("project", {project}); %>
       <% }); %>
     </div>
+    <p>View more on <a href="https://github.com/The-Noah?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
   </div>
   <footer>Copyright &copy; 2020 The Noah</footer>
   <script><%- js.app -%></script>
