@@ -257,21 +257,19 @@ p{
       align-items: center;
 
       .labels{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: .5rem;
 
         & > span{
-          padding: .2rem .4rem;
+          padding: .2rem .35rem;
           background-color: #444;
           color: hsl(212, 50%, 85%);
-          font-size: .8rem;
+          font-size: .75rem;
+          word-break: break-word;
           border-radius: $border-radius / 2;
           align-self: flex-start;
         }
-      }
-
-      .labels > span:not(:last-child){
-        margin-right: .5rem;
       }
 
       a{

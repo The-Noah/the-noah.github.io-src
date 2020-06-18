@@ -5,7 +5,7 @@
     "url": "bzlist.net",
     "github": "bzlist/bzlist.net",
     "color": "hsl(210, 70%, 55%)",
-    "labels": ["Web App", "React", "Socket.io", "Full Stack"]
+    "labels": ["Web App", "React", "Full Stack"]
   },{
     "name": "Static Site Generator",
     "description": "Generates an optimized static website",
@@ -27,7 +27,7 @@
     "url": "discord.com/oauth2/authorize?client_id=613446339157819412&scope=bot",
     "github": "The-Noah/bzflag-servers-bot",
     "color": "#7289DA",
-    "labels": ["Discord Bot", "Node.js", "JavaScript"]
+    "labels": ["Discord Bot", "Node.js"]
   },
   {
     "name": "Deno Discord Bot",
@@ -35,7 +35,7 @@
     "url": "discord.com/oauth2/authorize?client_id=714216231313604658&scope=bot",
     "github": "The-Noah/deno-discord-bot",
     "color": "#00BFFF",
-    "labels": ["Discord Bot", "Deno", "JavaScript", "TypeScript"]
+    "labels": ["Discord Bot", "Deno"]
   },
   {
     "name": "Currency Converter",
@@ -43,14 +43,14 @@
     "url": "the-noah.github.io/currency-converter",
     "github": "The-Noah/currency-converter",
     "color": "#9400D3",
-    "labels": ["Website", "Web App", "JavaScript"]
+    "labels": ["Web App", "JavaScript"]
   },
   {
     "name": "json2api",
     "description": "Turns JSON files into a simple API",
     "github": "The-Noah/json2api",
     "color": "#2B7489",
-    "labels": ["Discord Bot", "Deno", "JavaScript", "TypeScript"]
+    "labels": ["Deno", "TypeScript"]
   },
   {
     "name": "Shoe Store",
@@ -74,7 +74,7 @@
     "url": "the-noah.github.io/password-generator",
     "github": "The-Noah/password-generator",
     "color": "#2F80ED",
-    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
+    "labels": ["Web App", "#7Days7Websites"]
   },
   {
     "name": "Sector's Edge Tournament",
@@ -106,7 +106,7 @@
     "url": "the-noah.github.io/greetings",
     "github": "The-Noah/greetings",
     "color": "#777",
-    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
+    "labels": ["Web App", "#7Days7Websites"]
   },
   {
     "name": "Web Piano",
@@ -114,7 +114,7 @@
     "url": "the-noah.github.io/web-piano",
     "github": "The-Noah/web-piano",
     "color": "#3E4750",
-    "labels": ["Web App", "JavaScript", "#7Days7Websites"]
+    "labels": ["Web App", "#7Days7Websites"]
   },
   {
     "name": "Password Strength",
@@ -157,7 +157,7 @@
     "description": "Say hello, to A Nice Bot 🤖. Created to learn Node.js and the Discord API, this bot is a general purpose bot to play around with and have fun 🦄, while at the same time providing many features such as server management 🖥",
     "github": "The-Noah/A-Nice-Bot",
     "color": "#F1E05A",
-    "labels": ["Discord Bot", "Node.js", "JavaScript"]
+    "labels": ["Discord Bot", "Node.js"]
   },
   {
     "name": "CSEngine",
