@@ -229,5 +229,6 @@ main{
 .background{
   height: 100vh;
   position: fixed;
+  filter: blur(100px);
   z-index: -1;
 }
