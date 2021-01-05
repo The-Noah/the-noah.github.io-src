@@ -1,0 +1,15 @@
+{
+  "love": [
+    "JavaScript (ES6), TypeScript",
+    "HTML",
+    "CSS, Sass",
+    "React",
+    "Deno",
+    "Node.js"
+  ],
+  "used": [
+    "Rust",
+    "C++",
+    "C#"
+  ]
+}

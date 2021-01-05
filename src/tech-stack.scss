@@ -1,0 +1,23 @@
+// no clue why this is needed but it is - for some reason the first rule in this file is ignored
+.dummy{
+  display: none;
+}
+
+.love:before{
+  content: "💖 ";
+}
+
+.used:before{
+  content: "🙂 ";
+}
+
+.tech-stack{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li{
+    padding-left: 1rem;
+    text-indent: -1rem;
+  }
+}

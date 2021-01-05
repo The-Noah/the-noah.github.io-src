@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%- include("partials/head", {
+  site: {
+    title: "Teck Stack - The Noah"
+  },
+  css: {
+    style: css.style+css["tech-stack"]
+  }
+}) %>
+  <div class="text">
+    <h1>Tech Stalk</h1>
+    <p>
+      Technologies I like and have used.
+    </p>
+  </div>
+  <ul class="tech-stack">
+    <% Object.keys(tech_stack).forEach((type) => { %>
+      <% tech_stack[type].forEach((item) => { %>
+        <li class="<%= type %>"><%= item %></li>
+      <% }); %>
+    <% }); %>
+  </ul>
+<%- include("partials/end") %>
