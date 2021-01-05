@@ -1,8 +1,14 @@
+@import "../variables.scss";
+
 .projects{
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 2rem;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+  }
 
   & > div{
     h2{
