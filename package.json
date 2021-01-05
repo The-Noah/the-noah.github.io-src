@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "static-site-generator serve",
-    "build": "static-site-generator",
+    "build": "static-site-generator build",
     "watch": "static-site-generator watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b master -r https://github.com/The-Noah/the-noah.github.io"
