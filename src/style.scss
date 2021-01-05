@@ -37,7 +37,7 @@ header{
   user-select: none;
 
   @include mobile{
-    padding: 1rem;
+    padding: .5rem 1rem 2rem 1rem;
   }
 
   a{
@@ -45,12 +45,20 @@ header{
   }
 
   .links{
+    display: flex;
+    flex-direction: row;
+
     @include mobile{
-      display: none;
+      position: absolute;
+      top: 3.5rem;
     }
 
     & > *:not(:last-child){
       margin-right: 4rem;
+
+      @include mobile{
+        margin-right: 1rem;
+      }
     }
   }
 
