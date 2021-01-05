@@ -1,0 +1,65 @@
+[
+  {
+    "name": "BZList",
+    "description": "Real-time stats for BZFlag",
+    "github": "bzlist/bzlist.net",
+    "website": "bzlist.net"
+  },
+  {
+    "name": "cppvoxel",
+    "description": "Insane speed, high render distance, and cool terrain are the goals of this project",
+    "website": "cppvoxel.netlify.app"
+  },
+  {
+    "name": "Static Site Generator",
+    "description": "Generate optimized static websites",
+    "github": "The-Noah/static-site-generator"
+  },
+  {
+    "name": "Shoe Store",
+    "description": "Simple design for an online shoe store",
+    "github": "The-Noah/shoe-store",
+    "website": "thenoah.dev/shoe-store"
+  },
+  {
+    "name": "Gallery",
+    "description": "Minimalistic gallery web page",
+    "github": "The-Noah/gallery",
+    "website": "thenoah.dev/gallery"
+  },
+  {
+    "name": "Greetings",
+    "description": "Lightweight customizable start page",
+    "github": "The-Noah/greetings",
+    "website": "thenoah.dev/greetings"
+  },
+  {
+    "name": "bzfquery.js",
+    "description": "JavaScript version of bzfquery for Deno",
+    "github": "The-Noah/bzfquery.js"
+  },
+  {
+    "name": "BZFS Plugins",
+    "description": "Website containing a list of BZFlag server plugins",
+    "github": "The-Noah/bzfs-plugins",
+    "website": "thenoah.dev/bzfs-plugins"
+  },
+  {
+    "name": "Sector's Edge Tournament",
+    "description": "Details on tournaments for Sector's Edge",
+    "github": "The-Noah/sectors-edge-tournament",
+    "website": "thenoah.dev/sectors-edge-tournament"
+  },
+  {
+    "name": "Todo",
+    "description": "Very simple todo web app",
+    "github": "The-Noah/todo",
+    "website": "thenoah.dev/todo"
+  },
+  {
+    "name": "Password Generator",
+    "description": "Simple password generator with customization options",
+    "github": "The-Noah/password-generator",
+    "website": "thenoah.dev/password-generator"
+  }
+]

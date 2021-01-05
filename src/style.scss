@@ -80,7 +80,7 @@ main{
 }
 
 .text{
-  margin-left: 8rem;
+  margin-left: 6rem;
 
   @include mobile{
     padding: 0 1rem;
@@ -96,23 +96,29 @@ main{
   }
 
   p{
-    max-width: 460px;
+    width: 460px;
     margin: 5rem 0;
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.5;
 
     @include mobile{
+      width: 100%;
       margin: 2rem 0;
     }
   }
 
-  .projects{
+  ul{
+    margin: 0 0 3rem 0;
+  }
+
+  .btn{
     padding: 1.5rem 3rem;
     background-color: #4FEC91;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
+    letter-spacing: .2rem;
     display: inline-block;
     border-radius: $border-radius * 4;
     text-shadow: 0 2px .5rem rgba(0, 0, 0, .15);
@@ -126,9 +132,41 @@ main{
   }
 }
 
-.cards{
-  margin: 0 4rem 0 auto;
+.cards, .projects{
+  margin: 0 6rem 3rem auto;
   display: grid;
+
+  @include mobile{
+    padding: 0 1rem;
+    margin: 3rem 0;
+  }
+
+  & > div{
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    box-shadow: $shadow, inset 2px 2px .5rem rgba(0, 0, 0, .15);
+    backdrop-filter: blur(64px);
+    border-radius: $border-radius;
+
+    @include mobile{
+      padding: 1rem;
+    }
+
+    a{
+      color: #77BBFF;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.cards{
   grid-gap: 4rem;
   transform: rotate(-10deg);
 
@@ -141,19 +179,11 @@ main{
 
   & > div{
     width: 340px;
-    padding: 1.5rem;
-    background-color: rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction: column;
-    box-shadow: $shadow, inset 2px 2px .5rem rgba(0, 0, 0, .15);
-    backdrop-filter: blur(64px);
-    border-radius: $border-radius;
     grid-row: var(--row);
     grid-column: var(--column);
 
     @include mobile{
       width: 100%;
-      padding: 1rem;
       grid-row: auto;
       grid-column: 1;
     }
@@ -165,12 +195,6 @@ main{
 
     &.project{
       // height: 378px; // this is the value in Figma, but it is correct from the size of everything else
-
-      a{
-        color: #77BBFF;
-        font-weight: 600;
-        text-decoration: none;
-      }
 
       .header{
         display: flex;
@@ -221,6 +245,33 @@ main{
         p{
           margin-top: .33rem;
         }
+      }
+    }
+  }
+}
+
+.projects{
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 2rem;
+
+  & > div{
+    h2{
+      font-size: 2rem;
+    }
+
+    p{
+      margin: .5rem 0 1rem 0;
+      font-size: 1.1rem;
+      flex: 1;
+    }
+
+    .links{
+      display: flex;
+
+      a:not(:last-child){
+        margin-right: 1rem;
       }
     }
   }

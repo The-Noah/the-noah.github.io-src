@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<%- include("partials/head", {site: {
+  title: "Projects - The Noah"
+}}) %>
+  <div class="text">
+    <h1>Projects</h1>
+    <p>A curated list of my projects.</p>
+    <a class="btn" href="https://github.com/The-Noah" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+  <div class="projects">
+    <% projects.forEach((project) => { %>
+      <%- include("components/project", {project}); %>
+    <% }); %>
+  </div>
+<%- include("partials/end") %>

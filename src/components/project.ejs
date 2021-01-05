@@ -1,0 +1,12 @@
+<div>
+  <h2><%= project.name %></h2>
+  <p><%= project.description %></p>
+  <div class="links">
+    <% if(project.github){ %>
+      <a href="https://github.com/<%- project.github %>" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <% } %>
+    <% if(project.website){ %>
+      <a href="https://<%- project.website %>" target="_blank" rel="noopener noreferrer">Website</a>
+    <% } %>
+  </div>
+</div>
