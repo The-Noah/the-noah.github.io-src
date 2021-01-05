@@ -1,0 +1,85 @@
+@import "../variables.scss";
+
+.cards{
+  grid-gap: 4rem;
+  transform: rotate(-10deg);
+
+  @include mobile{
+    padding: 0 1rem;
+    margin: 3rem 0;
+    transform: none;
+    grid-gap: 2rem;
+  }
+
+  & > div{
+    width: 340px;
+    grid-row: var(--row);
+    grid-column: var(--column);
+
+    @include mobile{
+      width: 100%;
+      grid-row: auto;
+      grid-column: 1;
+    }
+
+    .info{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &.project{
+      // height: 378px; // this is the value in Figma, but it is correct from the size of everything else
+
+      .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        user-select: none;
+
+        svg{
+          margin-left: auto;
+          cursor: pointer;
+        }
+      }
+
+      .logo{
+        height: 128px;
+        margin: 2.5rem auto;
+        display: block;
+      }
+
+      h2, p{
+        text-align: center;
+      }
+
+      h2{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+    }
+
+    &.small{
+      // height: 134px; // this is the value in Figma, but it is correct from the size of everything else
+      padding: 1.5rem 1.6rem;
+      flex-direction: row;
+      align-items: center;
+
+      @include mobile{
+        padding: 1rem;
+      }
+
+      .logo{
+        height: 80px;
+      }
+
+      .info{
+        margin-left: 1.6rem;
+
+        p{
+          margin-top: .33rem;
+        }
+      }
+    }
+  }
+}
