@@ -36,7 +36,7 @@
   {
     "name": "bzfquery.js",
     "description": "JavaScript version of bzfquery for Deno",
-    "github": "The-Noah/bzfquery.js"
+    "github": "BZFlagCommunity/bzfquery.js"
   },
   {
     "name": "BZFS Plugins",
