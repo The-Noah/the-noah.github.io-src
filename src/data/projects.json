@@ -16,6 +16,12 @@
     "github": "The-Noah/static-site-generator"
   },
   {
+    "name": "Web BZW",
+    "description": "Preview and edit BZW files on the web",
+    "github": "BZFlagCommunity/webbzw",
+    "website": "bzw.thenoah.dev"
+  },
+  {
     "name": "Shoe Store",
     "description": "Simple design for an online shoe store",
     "github": "The-Noah/shoe-store",
