@@ -1,15 +1,21 @@
 {
   "love": [
-    "JavaScript (ES6), TypeScript",
+    "JavaScript (ES2020), TypeScript",
     "HTML",
     "CSS, Sass",
+    "Svelte, SvelteKit",
     "React",
-    "Deno",
-    "Node.js"
+    "Node.js",
+    "Express.js",
+    "WebSockets",
+    "MongoDB",
+    "PostgreSQL",
+    "Deno"
   ],
   "used": [
     "Rust",
-    "C++",
-    "C#"
+    "Python",
+    "C#",
+    "C++"
   ]
 }
